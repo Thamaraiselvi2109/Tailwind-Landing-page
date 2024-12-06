@@ -7,7 +7,7 @@ export const Routing = () =>{
         <>
         <BrowserRouter>
         <Routes>
-            <Route path="/" element={<Home/>}></Route>
+            <Route path="/Tailwind-Landing-page" element={<Home/>}></Route>
             <Route path="*" element={<NotFound/>}></Route>
         </Routes>
         </BrowserRouter>
